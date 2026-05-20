@@ -72,7 +72,7 @@ public class Game {
         }
     }
 
-    // ✔️ CORRIGIDO: agora cria novos objetos (SEM reutilização)
+    
     private void posicionar(ElementoTabuleiro elemento, int quantidade) {
 
         Random rand = new Random();
