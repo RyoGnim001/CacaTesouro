@@ -85,7 +85,7 @@ public class Game {
 
             if (tabuleiro[i][j].podeSerSubstituido()) {
 
-                tabuleiro[i][j] = elemento.criar(); // 🔥 AQUI ESTÁ A CORREÇÃO
+                tabuleiro[i][j] = elemento.criar(); 
                 colocados++;
             }
         }
